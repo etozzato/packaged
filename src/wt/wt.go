@@ -1,10 +1,6 @@
 package wt
 
-//hello is the thing
-func hello() string {
+//Hello is the thing
+func Hello() string {
 	return "hello from wt"
-}
-
-func main() {
-
 }

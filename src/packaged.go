@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
-import "gitlab.com/etozzato/packaged/tree/master/src/wt/wt"
-import "gitlab.com/etozzato/packaged/tree/master/src/wc/wc"
+import (
+	"fmt"
+
+	"github.com/etozzato/packaged/src/wc"
+	"github.com/etozzato/packaged/src/wt"
+)
 
 func main() {
-	fmt.Println(wt.hello())
-	fmt.Println(wc.hello())
+	fmt.Println(wt.Hello())
+	fmt.Println(wc.Hello())
 }
